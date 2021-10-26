@@ -1,0 +1,146 @@
+body {
+   margin: 0;
+}
+
+div {
+   padding-top: 2%;
+   padding-bottom: 3%;
+   padding-left: 3%;
+   padding-right: 3%;
+}
+
+h2 {
+   text-align: center;
+   font-family: Helvetica;
+}
+
+.article p {
+   text-indent: 20px;
+} 
+
+p, table {
+   font-family: "Courier New";
+}
+
+mark {
+   color: red;
+   background-color: transparent;
+}
+
+iframe {
+   border: 9px outset red; 
+   padding: 6px; 
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   margin-top: 50px;
+}
+
+table {
+   border-collapse: collapse;
+}
+
+#icon {
+   float: left;
+   clear: left;
+   width: 50px;
+   height: 50x;
+   padding-left: 13px;
+}
+
+#istvan {
+   float: right;
+   clear: right;
+   margin-left: 20px;
+   margin-bottom: 20px;
+   width: auto;
+   height: 100%;
+   max-width: 65vw;
+   max-height: 65vh;
+}
+
+.menu {
+    width: 100%;
+	position: fixed;
+	top: 0;
+	background-color: black;
+}
+
+.menu a{
+    text-align: center;
+	display: inline-block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+	float: right;
+	font-family: "Courier New";
+}
+
+.header {
+    background-image: url('images/croppedblack.jpg');
+	background-repeat: no-repeat;
+	background-position: center center;
+    background-size: cover;
+    padding-bottom: 10%;
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.header h1{
+    display: flex;
+	align-items: center;
+    justify-content: center;
+    font-size: 5vw;
+	color: white;
+	margin-bottom: 0;
+	font-family: sans-serif;
+}
+
+.header h2 {
+    display: flex;
+	align-items: center;
+    justify-content: center;
+    font-size: 2.5vw;
+	color: white;
+}
+
+.header p {
+    display: flex;
+	align-items: center;
+    justify-content: center;
+	text-align: center;
+	font-size: 1.5vw;
+	color: #ddd;
+}
+
+.table1, .video {
+    background-color: black;
+	color: white;
+}
+
+.table2 a {
+    color: red;
+}
+
+#w {
+   background-color: green;
+   text-align: center;
+}
+
+#l {
+   background-color: red;
+   text-align: center;
+}
+
+#gold {
+    background: gold;
+	text-align: center;
+	color: #64370F;
+}
+
+#bronze {
+    background: #CC9966;
+	text-align: center;
+	color: #281606;
+}
